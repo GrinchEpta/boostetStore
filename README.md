@@ -1,1 +1,1 @@
-# boostetStore
+# BoostedStore
