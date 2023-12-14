@@ -1,0 +1,3370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    font-family: "montserratregular",'Arial', sans-serif;
+    background-color: #000;
+}
+
+body {
+    width: 1440px; 
+    margin: 0 auto; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Roboto', sans-serif;
+}
+main {
+    flex-grow: 1;
+}
+.section {
+    width: 100%;
+}
+.container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-width: 1440px;
+}
+
+/*-------header-menu-------*/
+
+.header-menu .container {
+    padding: 10px;
+    width: 1440px;
+    height: 29px;
+    flex-shrink: 0;
+}
+.header-menu {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.text-financing {
+    color: #ffffff;
+    margin: 0px;
+    margin-left: 566px;
+    font-size: 12px;
+    font-style:normal;
+    font-weight: 500;
+    line-height: 9px; 
+    letter-spacing: 2px;
+    position: absolute;
+    
+}
+/*-------section header-men-------*/
+img {
+    height: 100%;
+    width: 100%;
+  }
+
+.header-men .container {
+    width: 1440px;
+    height: 66.359px;
+}
+.header-men {
+    background-color: aliceblue;
+    color: #000000;
+}
+.img_container_skate {
+    width:1440px; 
+    height:810px;
+}
+.img1 {
+    margin: 15px 11px;
+    position: absolute;
+}
+.img2 {
+    margin: 24px;
+    margin-left: 1374px;
+    position: absolute;
+}
+.img3 {
+    margin: 24px;
+    margin-left: 1402px; 
+    position: absolute;                    
+}
+.text1 {
+    margin: 22px 296px;
+    color: #000;
+    
+    font-style:normal;
+    font-weight: 400;
+    line-height: 21px; 
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: absolute;
+    font-size: clamp(9px,1vw,14px)
+
+}
+.text2 {
+    margin: 22px 501px;
+    color: #000;
+    font-size: clamp(9px,1vw,14px);
+    font-style: normal;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 21px; 
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: absolute;
+}
+.text3 {
+    margin: 22px 678px ;
+    color: #000;
+    font-size: clamp(9px,1vw,14px);
+    font-style: normal;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 21px; 
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: absolute;
+}
+.text4 {
+    margin: 22px 801px;
+    margin-right: 10px;
+    color: #000;
+    font-size: clamp(9px,1vw,14px);
+    font-style: normal;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 21px; 
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: absolute;
+}
+.text5 {
+    margin: 25px 903px;
+    margin-right: 10px;
+    color: #000;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: clamp(9px,1vw,14px);
+    font-style: normal;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+/*-------section delivery-------*/
+
+.delivery {
+    background-color: #000000;
+}
+.delivery .container {
+    padding: 10px;
+    width: 1440px;
+    height: 83px;
+    flex-shrink: 0;
+}
+.logotype1 {
+    margin: 11px;
+    margin-left: 195px;
+    position: absolute;
+}
+.logotype2 {
+    margin: 8px;
+    margin-left: 467px;
+    position: absolute;
+}
+.logotype3 {
+    margin: 9px;
+    margin-left: 795px;
+    position: absolute;
+}
+.logotype4 {
+    margin: 10px;
+    margin-left: 1091px;
+    position: absolute;
+}
+
+
+/*-------section dress------*/
+
+.dress .container {
+    display: flex;
+    width: 1440px;
+    height: 3393.59px;
+}
+.dress {
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+}
+.text_nachalo1 {
+    margin: 52px;
+    margin-left: 389px;
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; 
+    width: 663px;
+    position: absolute;
+    width: 663px;
+}
+.text_nachalo2 {
+    margin: 105px;
+    margin-left: 377px;
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.75px; 
+    width: 685px;
+    position: absolute;
+
+}
+.line_nachalo1 {
+    margin: 187.11px;
+    margin-left: 685px;
+    width: 70px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #CFCFCF;
+    position: absolute;
+}
+
+.img_mig2 {
+    margin: 234px;
+    margin-left: 130px;
+    position:absolute;
+}
+.img_mig1 {
+    margin: 234px;
+    margin-left: 730px;
+    position:absolute;
+}
+.logo_powerh_img11 {
+    margin: 457px;
+    margin-left: 395px;
+    position: absolute;
+}
+.logo_powerh_img22 {
+    margin: 457px;
+    margin-left: 995px;
+    position: absolute;
+}
+.logo_powerh_textT {
+    margin: 517px;
+    margin-left: 300px;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    position: absolute;
+    width: 241px;
+}
+                    .logo_powerh_textTT {
+                        color: #FFF;
+                        margin: 561px;
+                        margin-left: 386px;
+                        text-align: center;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 23.438px;
+                        position: absolute;
+                        width: 68px;
+                    }
+                    
+.logo_powerh_textN {
+    margin: 517px;
+    margin-left: 911px;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    position: absolute;
+    width: 218px;
+}
+                        .logo_powerh_textNN {
+                        color: #FFF;
+                        margin: 561px;
+                        margin-left: 986px;
+                        text-align: center;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 23.438px;
+                        width: 68px;
+                        position: absolute;
+                    }
+        .img_widthLine11 {
+            width: 1440px;
+            margin: 834px;
+            margin-left: auto;
+            position: absolute;
+        }
+            .text_width11 {
+                width: 143px;
+                margin: 878px;
+                margin-left: 648px;
+                color: #000;
+                text-align: center;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 18.75px; 
+                letter-spacing: 1px;
+                position: absolute;
+            }
+                .text_width22 {
+                    margin: 908px ;
+                    margin-left: 513px;
+                    color: #000;
+                    text-align: center;
+                    font-size: 45px;
+                    font-weight: 700;
+                    line-height: 50.625px;
+                    position: absolute;
+                    width: 420px;
+                }
+                    .text_width33 {
+                        margin: 974px;
+                        margin-left: 476px;
+                        color: #000;
+                        text-align: center;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 18.75px; 
+                        letter-spacing: 1px;
+                        position: absolute;
+                        width: 488px;
+                    }
+                        .logo_znak_228 {
+                            margin: 1032px;
+                            margin-left: 619px;
+                            width: 201px;
+                            height: 33px;
+                            flex-shrink: 0;
+                            border-radius: 35px;
+                            background: #FF4A32;
+                            position: absolute;
+                        }
+                            .text_logo_znak_228 {
+                                margin: 1037px;
+                                margin-left: 685px;
+                                color: #FFF;
+                                width: 69px;
+                                text-align: center;
+                                font-size: 15px;
+                                font-weight: 700;
+                                line-height: 22.5px;
+                                position: absolute;
+                            }
+                                .img-3_line_ling_1 {
+                                    width: 380px;
+                                    height: 380px;
+                                    margin: 1614px ;
+                                    margin-left: 530px;
+                                    position: absolute;
+                                }
+                                    .img-3_line_ling_2 {
+                                        width: 380px;
+                                        height: 380px;
+                                        margin: 1614px ;
+                                        margin-left: 130px;
+                                        position: absolute;
+                                    }
+                                        .text-3_line_1 {
+                                            margin: 1681px;
+                                            margin-left: 950px;
+                                            color: #000;
+                                            font-size: 32px;
+                                            font-weight: 400;
+                                            line-height: 38.4px;
+                                            width: 179px;
+                                            position: absolute;
+                                        }
+                                            .text-3_line_2 {
+                                                margin: 1741px;
+                                                margin-left: 950px;
+                                                color: #000;
+                                                font-size: 15px;
+                                                font-weight: 400;
+                                                line-height: 22.5px;
+                                                position: absolute;
+                                                width: 339px;
+                                            }
+                                                .logo-3_line_12 {
+                                                    margin: 1894px;
+                                                    margin-left:950px ;
+                                                    width: 101px;
+                                                    height: 33px;
+                                                    flex-shrink: 0;
+                                                    border-radius: 35px;
+                                                    background: #FF4A32;
+                                                    position: absolute;
+                                                }
+                                                    .text_logo-3_line_12 {
+                                                        margin: 1899px;
+                                                        margin-left: 966px;
+                                                        width: 69px;
+                                                        color: #FFF;
+                                                        text-align: center;
+                                                        font-size: 15px;
+                                                        font-weight: 400;
+                                                        line-height: 22.5px;
+                                                        position: absolute;
+                                                    }
+                                                .img_end_img_1 {
+                                                    width: 480px;
+                                                    height: 480px;
+                                                    margin: 2039px;
+                                                    margin-left: auto;
+                                                    position: absolute;
+                                                }
+                                            .img_end_img_2 {
+                                                width: 480px;
+                                                height: 480px;
+                                                 margin: 2039px;
+                                                 margin-left: 480px;
+                                                position: absolute;
+                                            }
+                                        .img_end_img_3 {
+                                            width: 480px;
+                                            height: 480px;
+                                            margin: 2039px;
+                                            margin-left: 960px;
+                                            position: absolute;
+                                        }
+                                    .text_end_img_11 {
+                                        margin: 2247px;
+                                        margin-left: 119px;
+                                        width: 241px;
+                                        color: #FFF;
+                                        text-align: center;
+                                        font-size: 25px;
+                                        font-weight: 400;
+                                        line-height: 30px;
+                                        position: absolute;
+                                    }
+                                .text_end_img_12 {
+                                    width: 83px;
+                                    margin: 2292px;
+                                    margin-left: 118px;
+                                    width: 241px;
+                                    color: #FFF;
+                                    text-align: center;
+                                    font-size: 18px;
+                                    font-weight: 400;
+                                    line-height: 23.438px;
+                                    position: absolute;
+                                }
+                                .text_end_img_22 {
+                                    margin: 2247px;
+                                    width: 212px;
+                                    margin-left: 599px;
+                                    width: 241px;
+                                    color: #FFF;
+                                    text-align: center;
+                                    font-size: 25px;
+                                    font-weight: 400;
+                                    line-height: 30px;
+                                    position: absolute;
+                                }
+                            .text_end_img_222 {
+                                width: 83px;
+                                margin: 2292px;
+                                margin-left: 597px;
+                                width: 241px;
+                                color: #FFF;
+                                text-align: center;
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 23.438px;
+                                position: absolute;
+                            }
+                            .text_end_img_33 {
+                                margin: 2247px;
+                                width: 212px;
+                                margin-left: 1080px;
+                                width: 241px;
+                                color: #FFF;
+                                text-align: center;
+                                font-size: 25px;
+                                font-weight: 400;
+                                line-height: 30px;
+                                position: absolute;
+                            }
+                        .text_end_img_333 {
+                            width: 83px;
+                            margin: 2292px;
+                            margin-left: 1079px;
+                            width: 241px;
+                            color: #FFF;
+                            text-align: center;
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 23.438px;  
+                            position: absolute;
+            
+                        }
+                    .video_1 {
+                        height: 304px;
+                        width: 540px;
+                        margin: 2574px;
+                        margin-left: 150px;
+                        position: absolute;
+                    }
+                .video_2 {
+                    height: 304px;
+                    width: 540px;
+                    margin: 2574px;
+                    margin-left: 710px;
+                    position: absolute;
+                }
+                .img_video_29 {
+                    inset-inline-start:20000000px;
+                    inset-block-start: 2200px;
+                    width: 50px;
+                    height: 50px;
+                    position: absolute;
+                }
+                .img_video_228 {
+                    inset-inline-start:2000000px;
+                    inset-block-start: 2200px;
+                    width: 50px;
+                    height: 50px;
+                    position: absolute;
+                }
+                .text_video_12 {
+                    inset-inline-start:2000000px;
+                    inset-block-start: 3000px;
+                    position: absolute;
+                    font-size: 13px;
+                    color: #000;
+                }
+                                                
+.line_shadow {
+    width: 1440px;
+    height: 66px;
+    background: rgba(255, 255, 255, 0.90);
+    box-shadow: 2px 0px 10px 0px rgba(41, 44, 61, 0.34);
+    position: absolute;
+    margin-top: 3285px;
+}
+.dress-text {
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 2942px;
+    margin-left: 539px;
+    width: 368px;
+    position: absolute;
+    white-space:nowrap;
+}
+.billbike {
+    width: 200px;
+    height: 200px;
+    margin: 3043.59px;
+    margin-left: 10px;
+    position: absolute;
+}
+.text-detal11 {
+    margin: 3242px;
+    margin-left: 75px;
+    position: absolute;
+    color: #FF2121;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    white-space:nowrap;
+}
+.text-detail111 {
+    margin: 3263px;
+    margin-left: 53px;
+    color: #373737;
+    position: absolute;
+    font-size: 15px;
+}
+.text-detail1111 {
+    margin: 3263px;
+    margin-left: 111px;
+    color: #FF2121;
+    position: absolute;
+    font-size: 15px;
+}
+.zadnee {
+    width: 200px;
+    height: 200px;
+    margin: 3043.59px;
+    margin-left: 190px;
+    position: absolute;
+}
+.text-detal22 {
+    margin: 3242px;
+    margin-left: 226px;
+    position: absolute;
+    color: #FF4A32;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    width: 166px;
+}
+.text-detal222 {
+    margin: 3263px;
+    margin-left: 253px;
+    position: absolute;
+    color: #373737;
+    font-size: 15px;
+}
+.text-detal2222 {
+    margin: 3263px;
+    margin-left: 311px;
+    position: absolute;
+    color: #FF4A32;
+    font-size: 15px;
+}
+.vtul {
+    width: 200px;
+    height: 200px;
+    margin: 3043.59px;
+    margin-left: 420px;
+    position: absolute;
+}
+.text-detal33 {
+    margin: 3242px;
+    margin-left: 447px;
+    position: absolute;
+    color: #FF4A32;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    width: 135px;
+}
+.text-detal333 {
+    margin: 3263px;
+    margin-left: 486px;
+    position: absolute;
+    color: #373737;
+    white-space:nowrap;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.30)
+}
+.bikeDetal {
+    width: 200px;
+    height: 200px;
+    margin: 3043.59px;
+    margin-left: 610px;
+    position: absolute;
+}
+.text-detal44 {
+    margin: 3242px;
+    margin-left: 658px;
+    position: absolute;
+    color: #FF4A32;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    white-space:nowrap;
+}
+.text-detal444 {
+    margin: 3263px;
+    margin-left: 688px;
+    position: absolute;
+    color: #373737;
+    white-space:nowrap;
+    font-size: 15px;
+    font-weight: 600;
+}
+.zap {
+    width: 200px;
+    height: 200px;
+    margin: 3043.59px;
+    margin-left: 815px;
+    position: absolute;
+}
+.text-detal55 {
+    margin: 3242px;
+    margin-left: 852px;
+    position: absolute;
+    color: #FF4A32;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    white-space: nowrap;
+}
+.text-detal555 {
+    margin: 3263px;
+    margin-left: 892px;
+    position: absolute;
+    color: #373737;
+    white-space:nowrap;
+    font-size: 15px;
+    font-weight: 600;
+}
+.Rectan {
+    width: 200px;
+    height: 200px;
+    margin: 3043.59px;
+    margin-left: 1025px;
+    position: absolute;
+}
+.text-detal66 {
+    margin: 3242px;
+    margin-left: 1048px;
+    position: absolute;
+    color: #FF4A32;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    white-space:nowrap;
+}
+.text-detal67 {
+    margin: 3263px;
+    margin-left: 1076px;
+    color: #FF4A32;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    white-space:nowrap;
+    position: absolute;
+}
+.text-detal666 {
+    margin: 3283px;
+    margin-left: 1092px;
+    position: absolute;
+    color: #373737;
+    font-size: 15px;
+    font-weight: 600;
+}
+.odmin {
+    width: 200px;
+    height: 200px;
+    margin: 3043.59px;
+    margin-left: 1225px;
+    position:absolute;
+}
+.text-detal77 {
+    margin: 3242px;
+    margin-left: 1260px;
+    position: absolute;
+    color: #FF4A32;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    white-space:nowrap;
+}
+.text-detal777 {
+    margin: 3263px;
+    margin-left: 1304px;
+    position: absolute;
+    color: #373737;
+    font-size: 15px;
+    white-space: normal;
+    font-weight: 600;
+}
+.logoTrio {
+    margin: 3184px;
+    margin-left: 22px;
+    position: absolute;
+    width: 19px;
+    height: 25px;
+    flex-shrink: 0;
+}
+.piss {
+    margin: 3174px;
+    margin-left: 10px;
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.75);
+    width: 44px;
+    height: 44px;
+    position: absolute;
+}
+.logoDuo {
+    margin: 3184px;
+    margin-left: 1398px;
+    position: absolute;
+    width: 19px;
+    height: 25px;
+    flex-shrink: 0;
+}
+.piss11 {
+    margin: 3174px;
+    margin-left: 1386px;
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.75);
+    width: 44px;
+    height: 44px;
+    position: absolute;
+}
+.line-container {
+    display: flex;
+    justify-content: center;
+}
+  
+.line1 {
+    margin: 2999.59px;
+    margin-left: 685px;
+    width: 70px;
+    height: 2px;
+    background: #CFCFCF;
+    position: absolute;
+}
+/*-------section new-------*/
+
+.new .container {
+    width: 1440px;
+    height: 308px;
+    flex-shrink: 0;
+}
+.new {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+.znak1 {
+    margin: 35.41px;
+    margin-left: 152px;
+    position: absolute;
+}
+.text-znak11 {
+    font-size: 31px;
+    font-weight: 700;
+    margin: 127.41px;
+    margin-left: 141px;
+    position: absolute;
+    line-height: 36px;
+}
+.text_znak11 {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 188px;
+    margin-left: 60px;
+    position: absolute;
+    line-height: 22.5px;
+    text-align: center;
+    width: 270px;
+}
+.znak2 {
+    margin: 35.41px;
+    margin-left: 502px;
+    position: absolute;
+}
+.text-znak22 {
+    font-size: 31px;
+    font-weight: 700;
+    margin: 127.41px;
+    margin-left: 498px;
+    position: absolute;
+    line-height: 36px;
+}
+.text_znak22 {
+    font-size: 15px;
+    font-weight: 402px;
+    margin: 188px;
+    margin-left: 402px;
+    position: absolute;
+    line-height: 22.5px;
+    width: 287px;
+    text-align: center;
+}
+.znak3 {
+    margin: 35.41px;
+    margin-left: 852px;
+    position: absolute;
+}
+.text-znak33 {
+    font-size: 31px;
+    font-weight: 700;
+    margin: 127.41px;
+    margin-left: 839px;
+    position: absolute;
+    line-height: 36px;
+}
+.text_znak33 {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 188px;
+    margin-left: 756px;
+    position: absolute;
+    line-height: 22.5px;
+    width: 278px;
+    text-align: center;
+}
+.znak4 {
+    margin: 35.41px;
+    margin-left: 1202px;
+    position: absolute;
+}
+.text-znak44 {
+    font-size: 31px;
+    font-weight: 700;
+    margin: 127.41px;
+    margin-left: 1155px;
+    position: absolute;
+    line-height: 36px;
+}
+.text_znak44 {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 188px;
+    margin-left: 1111px;
+    position: absolute;
+    line-height: 22.5px;
+    width: 268px;
+    text-align: center;
+}
+
+/*-------section subscribe-------*/
+
+.subscribe .container {
+    width: 1440px;
+    height: 329px;
+    flex-shrink: 0;
+}
+.subscribe {
+    background-color:#F7F7F7;
+    color: rgb(0, 0, 0);
+}
+.low {
+    margin: 50px;
+    margin-left: 130px;
+    position:absolute;
+}
+.text-low {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    position: absolute;
+    margin: 50px;
+    margin-left: 530px;
+    font-weight: 500;
+}
+.text-low2 {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    margin: 90px;
+    margin-left: 530px;
+}
+.text-low10 {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    margin: 110px;
+    margin-left: 530px;
+}
+.text-low3 {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    margin: 130px;
+    margin-left: 530px;
+}
+.text-low4 {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    margin: 150px;
+    margin-left: 530px;
+}
+.text-low5 {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    margin: 170px;
+    margin-left: 530px;
+}
+.text-low6 {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    margin: 190px;
+    margin-left: 530px;
+}
+.text-low7 {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    margin: 210px;
+    margin-left: 530px;
+}
+.text-low8 {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    margin: 230px;
+    margin-left: 530px;
+}
+.text-low9 {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    margin:250px;
+    margin-left: 530px;
+    
+}
+.text-low11 {
+    color: #000;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    margin: 50px;
+    margin-left: 930px;
+}
+.text-low22 {
+    color: #000;
+    width: 100%;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 85px;
+    margin-left: 930px;
+    max-width: 339px;
+    line-height: 20px;
+    position: absolute;
+}
+.text-low33 {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    margin: 190px;
+    margin-left: 930px;
+}
+.text-low44 {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    margin: 210px;
+    margin-left: 930px;
+}
+.text-low55 {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    margin: 230px;
+    margin-left: 930px;
+}
+/*--------section banner--------*/
+
+.banner .container {
+    flex-shrink: 0;
+}
+.banner {
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.imgReg {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.banner-text {
+    color: #000;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 50.625px;
+    position: absolute;
+    margin: 53px;
+    margin-left: 464px;
+}
+.banner-Holy {
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.75px;
+    letter-spacing: 1px;
+    position: absolute;
+    margin: 118px;
+    margin-left: 451px;
+}
+.banner-11 {
+    width: 201px;
+    height: 33px;
+    background-color: #FF4A32;
+    border-radius: 35px;
+    position: absolute;
+    margin:159px;
+    margin-left: 513px;
+}
+.banner-12 {
+    width: 201px;
+    height: 33px;
+    background-color: #FF4A32;
+    border-radius: 35px;
+    position: absolute;
+    margin:159px;
+    margin-left: 726px;
+}
+.banner-bukva-1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    margin:164px;
+    margin-left: 560px;
+    position: absolute;
+}
+.banner-bukva-2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.5px;
+    margin:164px;
+    margin-left: 763px;
+    position: absolute;   
+}
+/*----------section sale----------*/
+
+.sale .container {
+    display: flex;
+    width: 1440px;
+    height: 70px;
+    flex-direction: column;
+    gap: 0.094px;
+    flex-shrink: 0;
+}
+.sale {
+    background-color: #ffffff;
+    color:rgb(0, 0, 0)
+}
+.logo {
+    font-size: 13px;
+    margin: 19px;
+    margin-left: 130px;
+    position: absolute;
+}
+.text11 {
+    font-size: 13px;
+    margin: 19px;
+    margin-left: 142px;
+    position: absolute;
+    font-weight: 500;
+}
+.text22 {
+    font-size: 12px;
+    margin: 19px;
+    margin-left: 174px;
+    position: absolute;
+    color: #FF4A32;
+    font-weight: 500;
+}
+.text33 {
+    font-size: 13px;
+    margin: 19px;
+    margin-left: 246px;
+    position: absolute;
+    font-weight: 500;
+}
+.text44 {
+    font-size: 12px;
+    margin: 19px;
+    margin-left: 369px;
+    position: absolute;
+    color: #FF4A32;
+    font-weight: 500;
+}
+.text55 {
+    font-size: 13px;
+    margin: 19px;
+    margin-left: 465px;
+    position: absolute;
+    font-weight: 500;
+}
+.text66 {
+    font-size: 12px;
+    margin: 19px;
+    margin-left: 515px;
+    position: absolute;
+    color: #FF4A32;
+    font-weight: 500;
+}
+.img11 {
+    margin: 20px;
+    margin-left: 978px;
+    position: absolute;
+}
+.img22 {
+    margin: 20px;
+    margin-left: 1020px;
+    position: absolute;
+}
+.img33 {
+    margin: 20px;
+    margin-left: 1062px;
+    position: absolute;
+}
+.img44 {
+    margin: 20px;
+    margin-left: 1104px;
+    position: absolute;
+}
+.img55 {
+    margin: 20px;
+    margin-left: 1146px;
+    position: absolute;
+}
+.img66 {
+    margin: 20px;
+    margin-left: 1188px;
+    position: absolute;
+}
+.img77 {
+    margin: 20px;
+    margin-left: 1230px;
+    position: absolute;
+}
+.img88 {
+    margin: 20px;
+    margin-left: 1272px;
+    position: absolute;
+}
+
+.footer-menu {
+    background-color: #000000;
+}
+
+
+
+/*-----------------------------------MEDIA-1300PX---------------------------------------------------------*/
+
+                        @media (max-width: 320px) {}
+                           
+                        
+                        @media (max-width:1300px) {
+                            body {
+                                overflow-x: hidden;
+                            }
+                            .text1 {
+                                inset-block-start:30px;
+                                inset-inline-start:-60px;
+                            }
+                            .text2 {
+                                inset-block-start:30px;
+                                inset-inline-start:-60px;
+                                width: 200px;
+                            }
+                            .text3 {
+                                inset-block-start:30px;
+                                inset-inline-start:-60px;
+                            }
+                            .text4 {
+                                inset-block-start:30px;
+                                inset-inline-start:-60px;
+                            }
+                            .text5 {
+                                inset-block-start:32px;
+                                inset-inline-start:-60px;
+                            }
+                            .img2 {
+                                inset-block-start:30px;
+                                inset-inline-start:-390px;
+                            }
+                            .img3 {
+                                inset-block-start:30px;
+                                inset-inline-start:-390px;
+                            }
+                            .logotype1 {
+                                inset-block-start:830px;
+                                inset-inline-start:-120px;
+                            }
+                            .logotype2 {
+                                inset-block-start:830px;
+                                inset-inline-start:-160px;
+                            }
+                            .logotype3 {
+                                inset-block-start:830px;
+                                inset-inline-start:-190px;
+                            }
+                            .logotype4 {
+                                inset-block-start:835px;
+                                inset-inline-start:-210px;
+                            }
+                            .text-financing {
+                                inset-block-start:10px;
+                                inset-inline-start:-90px;
+                                font-size: clamp(8px,1vw,12px)
+                            }
+                            .img_container_skate {
+                                width: 89%;
+                                height: auto;
+                            }
+                            .banner-text {
+                                inset-block-start:100px;
+                                inset-inline-start:-390px;
+                                font-size: clamp(20px,4vw,44px)
+                            }
+                            .banner-Holy {
+                                inset-block-start:100px;
+                                inset-inline-start:-380px;
+                                font-size: clamp(12px,5vw,15px)
+                            }
+                            .banner-bukva-1 {
+                                inset-block-start:100px;
+                                inset-inline-start:-440px;
+                                font-size: clamp(12px,5vw,15px)
+                            }
+                            .banner-bukva-2 {
+                                inset-block-start:100px;
+                                inset-inline-start:-440px;
+                                font-size: clamp(12px,5vw,15px)
+                            }
+                            .banner-11 {
+                                inset-block-start:100px;
+                                inset-inline-start:-440px;
+                            }
+                            .banner-12 {
+                                inset-block-start:100px;
+                                inset-inline-start:-440px;
+                            }
+                            .text_nachalo1 {
+                                inset-block-start:900px;
+                                inset-inline-start:-195px;
+                                font-size: clamp(30px,2vw,32px)
+                            }
+                            .text_nachalo2 {
+                                inset-block-start:900px;
+                                inset-inline-start:-195px;
+                            }
+                            .line_nachalo1 {
+                                inset-block-start:900px;
+                                inset-inline-start:-195px;
+                            }
+                            .img_mig2 {
+                                width: 35%;
+                                inset-inline-start:-70px;
+                            }
+                            .img_mig1 {
+                                width: 35%;
+                                inset-inline-start:-185px;
+                            }
+                            .logo_powerh_textT {
+                                width: 35%;
+                                inset-inline-start:-240px;
+                                inset-block-start:820px;
+                            }
+                            .logo_powerh_textN, .logo_powerh_textTT{
+                                width: 35%;
+                                inset-inline-start:-375px;
+                                inset-block-start:820px;
+                            }
+                            .logo_powerh_textTT {
+                                width: 35%;
+                                inset-inline-start:-335px;
+                                inset-block-start:820px;
+                            }
+                            .logo_powerh_textNN {
+                                width: 35%;
+                                inset-inline-start:-445px;
+                                inset-block-start:820px;
+                            }
+                            .logo_powerh_img11 {
+                                width: 3%;
+                                inset-inline-start:-130px;
+                                inset-block-start:840px;
+                                display: flex;
+                            }
+                            .logo_powerh_img22 {
+                                width: 3%;
+                                inset-inline-start:-240px;
+                                inset-block-start:840px;
+                                display: flex;
+                            }
+                            .img_widthLine11 {
+                                width: 100%;
+                                inset-block-start:800px;
+                            }
+                            .text_width11, .logo_znak_228, .text_width22, .text_width33, .text_logo_znak_228 {
+                                inset-inline-start:-190px;
+                                inset-block-start:800px;
+                            }
+                            .text-3_line_1, .text-3_line_2, .text_logo-3_line_12, .logo-3_line_12 {
+                                inset-inline-start:-150px;
+                                inset-block-start: 720px;
+                            }
+                            .img-3_line_ling_1 {
+                                inset-inline-start:-130px;
+                                inset-block-start: 720px;
+                            }
+                            .img-3_line_ling_2 {
+                                inset-inline-start:-120px;
+                                inset-block-start: 720px;
+                            }
+                            .img_end_img_1 {
+                                inset-inline-start: 0px;
+                                inset-block-start: 720px;
+                                width: 33.5%;
+                                height: auto;
+                            }
+                            .img_end_img_2 {
+                                inset-inline-start: -50px;
+                                inset-block-start: 720px;
+                                width: 33.5%;
+                                height: auto;
+                            }
+                            .img_end_img_3 {
+                                inset-inline-start: -100px;
+                                inset-block-start: 720px;
+                                width: 33.5%;
+                                height: auto;
+                            }
+                            .text_end_img_11 {
+                                inset-inline-start:-30px;
+                                inset-block-start: 710px;
+                            }
+                            .text_end_img_22 {
+                                inset-inline-start:-70px;
+                                inset-block-start: 710px;
+                            }
+                            .text_end_img_33 {
+                                inset-inline-start:-130px;
+                                inset-block-start: 710px;
+                            }
+                            .text_end_img_12 {
+                                inset-inline-start:-30px;
+                                inset-block-start: 710px;
+                            }
+                            .text_end_img_222 {
+                                inset-inline-start:-70px;
+                                inset-block-start: 710px;
+                            }
+                            .text_end_img_333 {
+                                inset-inline-start:-130px;
+                                inset-block-start: 710px;
+                            }
+                            .video_1, .video_2 {
+                                inset-inline-start:-60px;
+                                inset-block-start: 670px;
+                            }
+                            .dress-text {
+                                inset-inline-start:-85px;
+                                inset-block-start: 670px; 
+                            }
+                            .line1 {
+                                inset-inline-start:-80px;
+                                inset-block-start: 670px;
+                            }
+                            .billbike, .zadnee, .vtul, .bikeDetal {
+                                inset-inline-start: 250px;
+                                inset-block-start: 670px;
+                                width: 128px;
+                                height: auto;
+                            }
+                            .zap, .Rectan, .odmin {
+                                inset-inline-start: -440px;
+                                inset-block-start: 910px;
+                                width: 128px;
+                                height: auto;
+                            }
+                            .text-detal11, .text-detal22, .text-detal33, .text-detal44 {
+                                inset-inline-start: 215px;
+                                inset-block-start: 615px;
+                            }
+                            .text-detail111, .text-detail1111, .text-detal222, .text-detal2222, .text-detal333, .text-detal444 {
+                                inset-inline-start: 215px;
+                                inset-block-start: 615px;
+                            }
+                            .text-detal55, .text-detal66, .text-detal77 {
+                                inset-inline-start: -475px;
+                                inset-block-start: 860px;
+                            }
+                            .text-detal67 {
+                                inset-inline-start: -475px;
+                                inset-block-start: 860px;
+                            }
+                            .text-detal555, .text-detal666, .text-detal777 {
+                                inset-inline-start: -477px;
+                                inset-block-start: 860px;
+                            }
+                            .logoTrio {
+                                inset-inline-start: 120px;
+                                inset-block-start: 700px;
+                            }
+                            .logoDuo {
+                                inset-inline-start: -315px;
+                                inset-block-start: 700px;
+                            }
+                            .znak1, .znak2, .znak3, .znak4 {
+                                inset-inline-start: -60px;
+                                inset-block-start: 4320px;
+                                width: 60px;
+                                height: auto;
+                            }
+                            .text-znak11, .text-znak22, .text-znak33, .text-znak44 {
+                                inset-inline-start: -72px;
+                                inset-block-start: 4290px;
+                                width: 200px;
+                                height: auto;
+                                font-size: 30px;
+                            }
+                            .text_znak11, .text_znak22, .text_znak33, .text_znak44 {
+                                inset-inline-start: -39px;
+                                inset-block-start: 4290px;
+                                width: 200px;
+                                height: auto;
+                                font-size: 13px;
+                            }
+                            .text-low, .text-low2, .text-low3, .text-low4, .text-low5, .text-low6, .text-low7, .text-low8, .text-low9, .text-low10, .text-low11, .text-low33, .text-low44, .text-low55 {
+                                inset-inline-start: -120px;
+                                inset-block-start: 4600px;
+                                width: 200px;
+                            }
+                            .text-low22 {
+                                inset-inline-start: -120px;
+                                inset-block-start: 4600px;
+                                width: 360px;
+                            }
+                            .img11, .img22, .img33, .img44, .img55, .img66, .img77, .img88 {
+                                inset-inline-start: -170px;
+                                inset-block-start: 4932px;
+                            }
+                            
+                    }
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+/*----------------------------------------MEDIA_1075PX--------------------------------------------------------------------------*/                   
+                    
+                    @media (max-width:1075px) {
+                        body {
+                            overflow-x: hidden;
+                        }
+                        .img_container_skate {
+                            width: 1075px;
+                        }
+                        .text-financing {
+                            inset-block-start:10px;
+                            inset-inline-start:-545px;
+                            font-size: clamp(8px,1vw,12px)
+                        }
+                        .text2 {
+                            inset-block-start:30px;
+                            inset-inline-start:-60px;
+                            width: 200px;
+                        }
+                                    .logotype1 {
+                                        inset-block-start:715px;
+                                        inset-inline-start:-140px;
+                                    }
+                                    .logotype2 {
+                                        inset-block-start:710px;
+                                        inset-inline-start:-180px;
+                                    }
+                                    .logotype3 {
+                                        inset-block-start:715px;
+                                        inset-inline-start:-210px;
+                                    }
+                                    .logotype4 {
+                                        inset-block-start:720px;
+                                        inset-inline-start:-260px;
+                                    }
+                                        .text_nachalo1 {
+                                            inset-block-start:790px;
+                                            inset-inline-start:-195px;
+                                            font-size: clamp(30px,2vw,32px)
+                                        }
+                                        .text_nachalo2 {
+                                            inset-block-start:790px;
+                                            inset-inline-start:-195px;
+                                        }
+                                        .line_nachalo1 {
+                                            inset-block-start:790px;
+                                            inset-inline-start:-195px;
+                                        }
+                                    .img_widthLine11 {
+                                        inset-block-start:620px;
+                                    }
+                                    .text_width11 {
+                                        inset-inline-start: -195px;
+                                        inset-block-start: 620px;
+                                    }
+                                    .text_width22 {
+                                        inset-inline-start: -195px;
+                                        inset-block-start: 620px;
+                                    }
+                                    .text_width33 {
+                                        inset-inline-start: -195px;
+                                        inset-block-start: 620px;
+                                    }
+                                    .text_logo_znak_228 {
+                                        inset-inline-start: -195px;
+                                        inset-block-start: 620px;
+                                    }
+                                    .logo_znak_228 {
+                                        inset-inline-start: -195px;
+                                        inset-block-start: 620px;
+                                    }
+                                    
+                        .video_1 {
+                            inset-inline-start:-110px;
+                            inset-block-start: 450px;
+                            width: 480px;
+                            height: auto;
+                        }
+                        .video_2 {
+                            inset-inline-start:-170px;
+                            inset-block-start: 450px;
+                            width: 480px;
+                            height: auto;
+                        }
+                        .img_end_img_1 {
+                            inset-inline-start: 0px;
+                            inset-block-start: 570px;
+                            width: 33%;
+                            height: auto;
+                        }
+                        .img_end_img_2 {
+                            inset-inline-start: -131px;
+                            inset-block-start: 570px;
+                            width: 33%;
+                            height: auto;
+                        }
+                        .img_end_img_3 {
+                            inset-inline-start: -262px;
+                            inset-block-start: 570px;
+                            width: 33%;
+                            height: auto;
+                        }
+                        .text_end_img_11 {
+                            inset-inline-start:-70px;
+                            inset-block-start: 530px;
+                        }
+                        .text_end_img_22 {
+                            inset-inline-start:-195px;
+                            inset-block-start: 530px;
+                        }
+                        .text_end_img_33 {
+                            inset-inline-start:-330px;
+                            inset-block-start: 530px;
+                        }
+                        .text_end_img_12 {
+                            inset-inline-start:-70px;
+                            inset-block-start: 530px;
+                        }
+                        .text_end_img_222 {
+                            inset-inline-start:-195px;
+                            inset-block-start: 530px;
+                        }
+                        .text_end_img_333 {
+                            inset-inline-start:-330px;
+                            inset-block-start: 530px;
+                        }
+                        .logo_powerh_img11 {
+                            width: 3%;
+                            inset-inline-start:-85px;
+                            inset-block-start:700px;
+                            display: flex;
+                        }
+                        .logo_powerh_img22 {
+                            width: 3%;
+                            inset-inline-start:-270px;
+                            inset-block-start:700px;
+                            display: flex;
+                        }
+                        .img_mig2 {
+                            width: 35%;
+                            inset-inline-start: 5px;
+                        }
+                        .logo_powerh_textT {
+                            width: 35%;
+                            inset-inline-start:-165px;
+                            inset-block-start:680px;
+                        }
+                        .logo_powerh_textTT {
+                            width: 35%;
+                            inset-inline-start:-250px;
+                            inset-block-start:680px;
+                        }
+                                .logo_powerh_textN {
+                                    width: 35%;
+                                    inset-inline-start:-360px;
+                                    inset-block-start:680px;
+                                }
+                                .logo_powerh_textNN {
+                                    width: 35%;
+                                    inset-inline-start:-430px;
+                                    inset-block-start:680px;
+                                }
+                        .text-3_line_1, .text-3_line_2 {
+                            inset-inline-start:-290px;
+                            inset-block-start: 500px;
+                        }
+                        .text_logo-3_line_12, .logo-3_line_12 {
+                            inset-inline-start:-290px;
+                            inset-block-start: 500px;
+                        }
+                        .img-3_line_ling_1 {
+                            inset-inline-start:-195px;
+                            inset-block-start: 540px;
+                            width: 310px;
+                            height: auto;
+                        }
+                        .img-3_line_ling_2 {
+                            inset-inline-start:-120px;
+                            inset-block-start: 540px;
+                            width: 310px;
+                            height: auto;
+                        }
+                        .dress-text, .line1 {
+                            inset-inline-start:-190px;
+                            inset-block-start: 410px;
+                        }
+                        .billbike, .zadnee, .vtul, .bikeDetal {
+                            inset-inline-start: 150px;
+                            inset-block-start: 450px;
+                            width: 128px;
+                            height: auto;
+                        }
+                        .zap, .Rectan, .odmin {
+                            inset-inline-start: -540px;
+                            inset-block-start: 680px;
+                            width: 128px;
+                            height: auto;
+                        }
+                        .text-detal11, .text-detal22, .text-detal33, .text-detal44 {
+                            inset-inline-start: 115px;
+                            inset-block-start: 390px;
+                        }
+                        .text-detail111, .text-detail1111, .text-detal222, .text-detal2222, .text-detal333, .text-detal444 {
+                            inset-inline-start: 115px;
+                            inset-block-start: 390px;
+                        }
+                        .text-detal55, .text-detal66, .text-detal77 {
+                            inset-inline-start: -572px;
+                            inset-block-start: 630px;
+                        }
+                        .text-detal67 {
+                            inset-inline-start: -572px;
+                            inset-block-start: 630px;
+                        }
+                        .text-detal555, .text-detal666, .text-detal777 {
+                            inset-inline-start: -572px;
+                            inset-block-start: 630px;
+                        }
+                        .logoTrio {
+                            inset-inline-start: 20px;
+                            inset-block-start: 520px;
+                        }
+                        .logoDuo {
+                            inset-inline-start: -400px;
+                            inset-block-start: 520px;
+                        }
+                        .znak1 {
+                            inset-inline-start: -50px;
+                            inset-block-start: 4120px;
+                            width: 60px;
+                            height: auto;
+                        }
+                                    .znak2 {
+                                        inset-inline-start: -140px;
+                                        inset-block-start: 4120px;
+                                        width: 60px;
+                                        height: auto;
+                                    }
+                                    .znak3 {
+                                        inset-inline-start: -220px;
+                                        inset-block-start: 4120px;
+                                        width: 60px;
+                                        height: auto;
+                                    }
+                                    .znak4 {
+                                        inset-inline-start: -310px;
+                                        inset-block-start: 4120px;
+                                        width: 60px;
+                                        height: auto;
+                                    }
+
+                        .text-znak11 {
+                            inset-inline-start: -65px;
+                            inset-block-start: 4090px;
+                            width: 200px;
+                            height: auto;
+                            font-size: 30px;
+                        }
+                                    .text-znak22 {
+                                        inset-inline-start: -153px;
+                                        inset-block-start: 4090px;
+                                        width: 200px;
+                                        height: auto;
+                                        font-size: 30px;
+                                    }
+                                    .text-znak33 {
+                                        inset-inline-start: -230px;
+                                        inset-block-start: 4090px;
+                                        width: 200px;
+                                        height: auto;
+                                        font-size: 30px;
+                                    }
+                                    .text-znak44 {
+                                        inset-inline-start: -315px;
+                                        inset-block-start: 4090px;
+                                        width: 200px;
+                                        height: auto;
+                                        font-size: 30px;
+                                    }
+                        .text_znak11 {
+                            inset-inline-start: -30px;
+                            inset-block-start: 4090px;
+                            width: 200px;
+                            height: auto;
+                            font-size: 13px;
+                        }
+                                        .text_znak22 {
+                                            inset-inline-start: -110px;
+                                            inset-block-start: 4090px;
+                                            width: 200px;
+                                            height: auto;
+                                            font-size: 13px;
+                                        }
+                                        .text_znak33 {
+                                            inset-inline-start: -195px;
+                                            inset-block-start: 4090px;
+                                            width: 200px;
+                                            height: auto;
+                                            font-size: 13px;
+                                        }.text_znak44 {
+                                            inset-inline-start: -290px;
+                                            inset-block-start: 4090px;
+                                            width: 200px;
+                                            height: auto;
+                                            font-size: 13px;
+                                        }
+                                .low {
+                                    width: 120px;
+                                    height: auto;
+                                    inset-inline-start: -70px;
+                                }
+
+                        .text-low, .text-low2, .text-low3, .text-low4, .text-low5, .text-low6, .text-low7, .text-low8, .text-low9, .text-low10, .text-low11, .text-low33, .text-low44, .text-low55 {
+                            inset-inline-start: -260px;
+                            inset-block-start: 4390px;
+                            width: 200px;
+                        }
+                        .text-low22 {
+                            inset-inline-start: -260px;
+                            inset-block-start: 4390px;
+                            width: 360px;
+                        }
+                        .img11, .img22, .img33, .img44, .img55, .img66, .img77, .img88 {
+                            inset-inline-start: -310px;
+                            inset-block-start: 4732px;
+                        }
+                        .dress .container {
+                            display: flex;
+                            height: 3310px;
+                        }
+                        .line_shadow {
+                            inset-block-start: 700px;
+                        }
+                        .piss {
+                            inset-inline-start: 18px;
+                            inset-block-start: 518px;
+                        }
+                        .piss11 {
+                            inset-inline-start: -402px;
+                            inset-block-start: 518px;
+                        }
+                    }
+
+
+
+
+
+/*----------------------------------------MEDIA_890PX--------------------------------------------------------------------------*/                   
+                    
+@media (max-width: 890px) {
+    body {
+        overflow-x: hidden;
+    }
+                    .img1 {
+                        width: 120px;
+                        height: auto; 
+                        inset-block-start:32px;
+                    }
+                            .text1 {
+                                inset-block-start:30px;
+                                inset-inline-start:-130px;
+                            }
+                            .text2 {
+                                inset-block-start:30px;
+                                inset-inline-start:-190px;
+                                width: 200px;
+                            }
+                            .text3 {
+                                inset-block-start:30px;
+                                inset-inline-start:-240px;
+                            }
+                            .text4 {
+                                inset-block-start:30px;
+                                inset-inline-start:-280px;
+                            }
+                            .text5 {
+                                inset-block-start:33px;
+                                inset-inline-start:-310px;
+                            }
+                            .img2 {
+                                inset-block-start:30px;
+                                inset-inline-start:-590px;
+                            }
+                            .img3 {
+                                inset-block-start:30px;
+                                inset-inline-start:-590px;
+                            }
+                            .img_container_skate {
+                                width: 890px;
+                            }
+                            .logotype1 {
+                                inset-block-start:615px;
+                                inset-inline-start:-140px;
+                                width: 140px;
+                            }
+                            .logotype2 {
+                                inset-block-start:615px;
+                                inset-inline-start:-220px;
+                                width: 140px;
+                            }
+                            .logotype3 {
+                                inset-block-start:615px;
+                                inset-inline-start:-340px;
+                                width: 140px;
+                            }
+                            .logotype4 {
+                                inset-block-start:615px;
+                                inset-inline-start:-420px;
+                                width: 140px;
+                            }
+                    .text_nachalo1 {
+                        inset-block-start:680px;
+                        inset-inline-start:-280px;
+                    }
+                    .text_nachalo2 {
+                        inset-block-start:680px;
+                        inset-inline-start:-280px;
+                    }
+                .img_mig2 {
+                    inset-block-start:680px;
+                    inset-inline-start:-30px;
+                }
+                .img_mig1 {
+                    inset-block-start:680px;
+                    inset-inline-start:-250px;
+                }
+                    .logo_powerh_textT {
+                        width: 35%;
+                        inset-inline-start:-200px;
+                        inset-block-start:540px;
+                        font-size: 20px;
+                    }
+                    .logo_powerh_textTT {
+                        inset-inline-start:-285px;
+                        inset-block-start:530px;
+                        font-size: 18px;
+                    }
+                    .logo_powerh_textN {
+                        width: 35%;
+                        inset-inline-start:-430px;
+                        inset-block-start:540px;
+                        font-size: 20px;
+                    }
+                    .logo_powerh_textNN {
+                        inset-inline-start:-507px;
+                        inset-block-start:530px;
+                        font-size: 18px;
+                    }
+                            .logo_powerh_img11 {
+                                width: 3%;
+                                inset-inline-start:-150px;
+                                inset-block-start:570px;
+                                display: flex;
+                            }
+                            .logo_powerh_img22 {
+                                width: 3%;
+                                inset-inline-start:-370px;
+                                inset-block-start:570px;
+                                display: flex;
+                            }
+                .line_nachalo1 {
+                    inset-block-start:680px;
+                    inset-inline-start:-275px;
+                }
+            .img_widthLine11 {
+                inset-block-start:470px;
+                inset-inline-start:0px;
+            }
+                            .text_width11 {
+                                inset-block-start:470px;
+                                inset-inline-start:-280px; 
+                            }
+                            .text_width22 {
+                                inset-block-start:470px;
+                                inset-inline-start:-280px;
+                            }
+                            .text_width33 {
+                                inset-block-start:470px;
+                                inset-inline-start:-280px;
+                            }
+                            .text_width44 {
+                                inset-block-start:470px;
+                                inset-inline-start:-280px;
+                            }
+                            .text_logo_znak_228 {
+                                inset-block-start:470px;
+                                inset-inline-start:-280px;
+                            }
+                            .logo_znak_228 {
+                                inset-block-start:470px;
+                                inset-inline-start:-280px;
+                            }
+
+
+    .text-financing {
+        inset-block-start:10px;
+        inset-inline-start:-545px;
+        font-size: clamp(8px,1vw,12px)
+    }
+    .img_end_img_1 {
+        inset-inline-start: 0px;
+        inset-block-start: 480px;
+        width: 33.6%;
+        height: auto;
+    }
+    .img_end_img_2 {
+        inset-inline-start: -187px;
+        inset-block-start: 480px;
+        width: 33.6%;
+        height: auto;
+    }
+    .img_end_img_3 {
+        inset-inline-start: -374px;
+        inset-block-start: 480px;
+        width: 33.6%;
+        height: auto;
+    }
+    .text_end_img_11 {
+        inset-inline-start:-95px;
+        inset-block-start: 420px;
+        font-size: 18px;
+    }
+    .text_end_img_22 {
+        inset-inline-start:-280px;
+        inset-block-start: 420px;
+        font-size: 18px;
+    }
+    .text_end_img_33 {
+        inset-inline-start:-470px;
+        inset-block-start: 420px;
+        font-size: 18px;
+    }
+    .text_end_img_12 {
+        inset-inline-start:-90px;
+        inset-block-start: 410px;
+        font-size: 14px;
+    }
+    .text_end_img_222 {
+        inset-inline-start:-278px;
+        inset-block-start: 410px;
+        font-size: 14px;
+    }
+    .text_end_img_333 {
+        inset-inline-start:-468px;
+        inset-block-start: 410px;
+        font-size: 14px;
+    }
+    .text-3_line_1, .text-3_line_2 {
+        inset-inline-start:-600px;
+        inset-block-start: 300px;
+    }
+    .text_logo-3_line_12, .logo-3_line_12 {
+        inset-inline-start:-600px;
+        inset-block-start: 300px;
+    }
+    .img-3_line_ling_1 {
+        inset-inline-start:-520px;
+        inset-block-start: 500px;
+        width: 310px;
+        height: auto;
+    }
+    .img-3_line_ling_2 {
+        inset-inline-start:-120px;
+        inset-block-start: 180px;
+        width: 310px;
+        height: auto;
+    }
+    .video_1 {
+        inset-inline-start:-140px;
+        inset-block-start: 330px;
+        width: 380px;
+        height: auto;
+    }
+    .video_2 {
+        inset-inline-start:-300px;
+        inset-block-start: 330px;
+        width: 380px;
+        height: auto;
+    }
+    .dress-text, .line1 {
+        inset-inline-start:-290px;
+        inset-block-start: 250px;
+    }
+    .billbike, .zadnee, .vtul, .bikeDetal {
+        inset-inline-start: 45px;
+        inset-block-start: 250px;
+        width: 128px;
+        height: auto;
+    }
+    .zap, .Rectan, .odmin {
+        inset-inline-start: -650px;
+        inset-block-start: 480px;
+        width: 128px;
+        height: auto;
+    }
+    .text-detal11, .text-detal22, .text-detal33, .text-detal44 {
+        inset-inline-start:10px;
+        inset-block-start: 190px;
+    }
+    .text-detail111, .text-detail1111, .text-detal222, .text-detal2222, .text-detal333, .text-detal444 {
+        inset-inline-start: 10px;
+        inset-block-start: 190px;
+    }
+    .text-detal55, .text-detal66, .text-detal77 {
+        inset-inline-start: -685px;
+        inset-block-start: 430px;
+    }
+    .text-detal67 {
+        inset-inline-start: -682px;
+        inset-block-start: 430px;
+    }
+    .text-detal555, .text-detal666, .text-detal777 {
+        inset-inline-start: -685px;
+        inset-block-start: 430px;
+    }
+    .logoTrio {
+        inset-inline-start: -10px;
+        inset-block-start: 320px;
+    }
+    .logoDuo {
+        inset-inline-start: -560px;
+        inset-block-start: 320px;
+    }
+    .piss {
+        inset-inline-start: -8px;
+        inset-block-start: 318px;
+    }
+    .piss11 {
+        inset-inline-start: -562px;
+        inset-block-start: 318px;
+    }
+    .znak1 {
+        inset-inline-start: -80px;
+        inset-block-start: 3870px;
+        width: 60px;
+        height: auto;
+    }
+                .znak2 {
+                    inset-inline-start: -220px;
+                    inset-block-start: 3870px;
+                    width: 60px;
+                    height: auto;
+                }
+                .znak3 {
+                    inset-inline-start: -340px;
+                    inset-block-start: 3870px;
+                    width: 60px;
+                    height: auto;
+                }
+                .znak4 {
+                    inset-inline-start: -480px;
+                    inset-block-start: 3870px;
+                    width: 60px;
+                    height: auto;
+                }
+
+    .text-znak11 {
+        inset-inline-start: -90px;
+        inset-block-start: 3840px;
+        width: 200px;
+        height: auto;
+        font-size: 28px;
+    }
+                .text-znak22 {
+                    inset-inline-start: -229px;
+                    inset-block-start: 3840px;
+                    width: 200px;
+                    height: auto;
+                    font-size: 28px;
+                }
+                .text-znak33 {
+                    inset-inline-start: -349px;
+                    inset-block-start: 3840px;
+                    width: 200px;
+                    height: auto;
+                    font-size: 28px;
+                }
+                .text-znak44 {
+                    inset-inline-start: -480px;
+                    inset-block-start: 3840px;
+                    width: 200px;
+                    height: auto;
+                    font-size: 28px;
+                }
+    .text_znak11 {
+        inset-inline-start: -35px;
+        inset-block-start: 3820px;
+        width: 150px;
+        height: auto;
+        font-size: 12px;
+    }
+                    .text_znak22 {
+                        inset-inline-start: -168px;
+                        inset-block-start: 3820px;
+                        width: 150px;
+                        height: auto;
+                        font-size: 12px;
+                    }
+                    .text_znak33 {
+                        inset-inline-start: -292px;
+                        inset-block-start: 3820px;
+                        width: 150px;
+                        height: auto;
+                        font-size: 12px;
+                    }.text_znak44 {
+                        inset-inline-start: -436px;
+                        inset-block-start: 3820px;
+                        width: 150px;
+                        height: auto;
+                        font-size: 12px;
+                    }
+            .low {
+                width: 120px;
+                height: auto;
+                inset-inline-start: -110px;
+            }
+
+    .text-low, .text-low2, .text-low3, .text-low4, .text-low5, .text-low6, .text-low7, .text-low8, .text-low9, .text-low10, .text-low11, .text-low33, .text-low44, .text-low55 {
+        inset-inline-start: -360px;
+        inset-block-start: 4180px;
+        width: 200px;
+    }
+    .text-low22 {
+        inset-inline-start: -360px;
+        inset-block-start: 4180px;
+        width: 290px;
+    }
+    .img11, .img22, .img33, .img44, .img55, .img66, .img77, .img88 {
+        inset-inline-start: -480px;
+        inset-block-start: 4504px;
+    }
+    .dress .container {
+        display: flex;
+        height: 3190px;
+    }
+    .line_shadow {
+        inset-block-start: 480px;
+    }
+            .logo, .text11, .text22, .text33, .text44, .text55, .text66 {
+                inset-inline-start: -110px; 
+            }
+}
+
+
+
+
+
+
+
+/*----------------------------------------MEDIA_580PX--------------------------------------------------------------------------*/                   
+                    
+@media (max-width: 580px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header-men .container {
+        height: 85px;
+    }
+    .delivery .container {
+        height: 110px;
+    }
+
+                    .img1 {
+                        width: 120px;
+                        height: auto; 
+                        inset-block-start:22px;
+                    }
+                            .text1 {
+                                inset-block-start:20px;
+                                inset-inline-start:-130px;
+                                width: 200px;
+                            }
+                            .text2 {
+                                inset-block-start:20px;
+                                inset-inline-start:-180px;
+                                width: 200px;
+                            }
+                            .text3 {
+                                inset-block-start:50px;
+                                inset-inline-start:-560px;
+                            }
+                            .text4 {
+                                inset-block-start:50px;
+                                inset-inline-start:-590px;
+                            }
+                            .text5 {
+                                inset-block-start:53px;
+                                inset-inline-start:-610px;
+                            }
+                            .img2 {
+                                inset-block-start:40px;
+                                inset-inline-start:-910px;
+                            }
+                            .img3 {
+                                inset-block-start:40px;
+                                inset-inline-start:-910px;
+                            }
+                            .img_container_skate {
+                                width: 580px;
+                            }
+                    .banner-text {
+                        inset-block-start:110px;
+                        inset-inline-start: -315px;
+                    }
+                    .banner-Holy {
+                        inset-block-start:100px;
+                        inset-inline-start: -328px;
+                    }
+                    .banner-bukva-2 {
+                        inset-block-start:101px;
+                        inset-inline-start: -476px;
+                        width: 200px;
+                    }
+                            .logotype1 {
+                                inset-block-start:450px;
+                                inset-inline-start:-100px;
+                                width: 120px;
+                            }
+                            .logotype2 {
+                                inset-block-start:450px;
+                                inset-inline-start:-160px;
+                                width: 140px;
+                            }
+                            .logotype3 {
+                                inset-block-start:495px;
+                                inset-inline-start:-700px;
+                                width: 120px;
+                            }
+                            .logotype4 {
+                                inset-block-start:495px;
+                                inset-inline-start:-780px;
+                                width: 140px;
+                            }
+                    .text_nachalo1 {
+                        inset-block-start:530px;
+                        inset-inline-start:-435px;
+                        font-size: 22px;
+                    }
+                    .text_nachalo2 {
+                        inset-block-start:520px;
+                        inset-inline-start:-320px;
+                        width: 450px;
+                    }
+                .img_mig2 {
+                    inset-block-start:520px;
+                    inset-inline-start:10px;
+                    width: 280px;
+                }
+                .img_mig1 {
+                    inset-block-start:810px;
+                    inset-inline-start:-590px;
+                    width: 280px;
+                }
+                    .logo_powerh_textT {
+                        width: 50%;
+                        inset-inline-start:-160px;
+                        inset-block-start:370px;
+                        font-size: 20px;
+                    }
+                    .logo_powerh_textTT {
+                        inset-inline-start:-205px;
+                        inset-block-start:360px;
+                        font-size: 18px;
+                    }
+                    .logo_powerh_textN {
+                        width: 50%;
+                        inset-inline-start:-770px;
+                        inset-block-start:650px;
+                        font-size: 20px;
+                    }
+                    .logo_powerh_textNN {
+                        inset-inline-start:-805px;
+                        inset-block-start:640px;
+                        font-size: 18px;
+                    }
+                            .logo_powerh_img11 {
+                                width: 6%;
+                                inset-inline-start:-130px;
+                                inset-block-start:395px;
+                                display: flex;
+                            }
+                            .logo_powerh_img22 {
+                                width: 6%;
+                                inset-inline-start:-725px;
+                                inset-block-start:675px;
+                                display: flex;
+                            }
+                .line_nachalo1 {
+                    inset-block-start:530px;
+                    inset-inline-start:-440px;
+                }
+            .img_widthLine11 {
+                inset-block-start:500px;
+                inset-inline-start:0px;
+            }
+                            .text_width11 {
+                                inset-block-start:470px;
+                                inset-inline-start:-440px; 
+                            }
+                            .text_width22 {
+                                inset-block-start:470px;
+                                inset-inline-start:-440px;
+                                font-size: 33px;
+                            }
+                            .text_width33 {
+                                inset-block-start:460px;
+                                inset-inline-start:-440px;
+                            }
+                            .text_logo_znak_228 {
+                                inset-block-start:470px;
+                                inset-inline-start:-440px;
+                            }
+                            .logo_znak_228 {
+                                inset-block-start:470px;
+                                inset-inline-start:-440px;
+                            }
+
+
+    .text-financing {
+        inset-block-start:10px;
+        inset-inline-start:-545px;
+        font-size: 12px;
+    }
+    .img_end_img_1 {
+        inset-inline-start: 0px;
+        inset-block-start: 260px;
+        width: 282px;
+        height: auto;
+    }
+    .img_end_img_2 {
+        inset-inline-start: -198px;
+        inset-block-start: 260px;
+        width: 282px;
+        height: auto;
+    }
+    .img_end_img_3 {
+        inset-inline-start: -822px;
+        inset-block-start: 542px;
+        width: 282px;
+        height: auto;
+    }
+    .text_end_img_11 {
+        inset-inline-start:-100px;
+        inset-block-start: 180px;
+        font-size: 18px;
+    }
+    .text_end_img_22 {
+        inset-inline-start:-300px;
+        inset-block-start: 180px;
+        font-size: 18px;
+    }
+    .text_end_img_33 {
+        inset-inline-start:-920px;
+        inset-block-start: 458px;
+        font-size: 18px;
+    }
+    .text_end_img_12 {
+        inset-inline-start:-100px;
+        inset-block-start: 170px;
+        font-size: 14px;
+    }
+    .text_end_img_222 {
+        inset-inline-start:-295px;
+        inset-block-start: 170px;
+        font-size: 14px;
+    }
+    .text_end_img_333 {
+        inset-inline-start:-917px;
+        inset-block-start: 450px;
+        font-size: 14px;
+    }
+    .text-3_line_1, .text-3_line_2 {
+        inset-inline-start:-625px;
+        inset-block-start: -34px;
+        width: 180px;
+    }
+    .text_logo-3_line_12, .logo-3_line_12 {
+        inset-inline-start:-625px;
+        inset-block-start: 60px;
+    }
+    .img-3_line_ling_1 {
+        inset-inline-start:-525px;
+        inset-block-start: 355px;
+        width: 310px;
+        height: auto;
+    }
+    .img-3_line_ling_2 {
+        inset-inline-start:-125px;
+        inset-block-start: 40px;
+        width: 310px;
+        height: auto;
+    }
+    .video_1 {
+        inset-inline-start:-46px;
+        inset-block-start: 300px;
+        width: 350px;
+        height: auto;
+    }
+    .video_2 {
+        inset-inline-start:-606px;
+        inset-block-start: 500px;
+        width: 350px;
+        height: auto;
+    }
+    .dress-text, .line1 {
+        inset-inline-start:-435px;
+        inset-block-start: 350px;
+        font-size: 28px;
+    }
+    .billbike, .zadnee {
+        inset-inline-start: 120px;
+        inset-block-start: 350px;
+        width: 128px;
+        height: auto;
+    }
+    .vtul, .bikeDetal {
+        inset-inline-start: -300px;
+        inset-block-start: 570px;
+        width: 128px;
+        height: auto;
+    }
+    .zap, .Rectan {
+        inset-inline-start: -710px;
+        inset-block-start: 820px;
+        width: 128px;
+        height: auto;
+    }
+    .odmin {
+        inset-inline-start: -1015px;
+        inset-block-start: 1030px;
+        width: 128px;
+        height: auto; 
+    }
+    .text-detal11, .text-detal22 {
+        inset-inline-start:80px;
+        inset-block-start: 280px;
+    }
+    .text-detal33, .text-detal44 {
+        inset-inline-start:-335px;
+        inset-block-start: 500px;
+    }
+    .text-detail111, .text-detail1111, .text-detal222, .text-detal2222 {
+        inset-inline-start: 78px;
+        inset-block-start: 280px;
+    }
+    .text-detal333, .text-detal444 {
+        inset-inline-start: -336px;
+        inset-block-start: 500px;
+    }
+    .text-detal55, .text-detal66 {
+        inset-inline-start: -740px;
+        inset-block-start: 760px;
+    }
+    .text-detal77 {
+        inset-inline-start:-1052px;
+        inset-block-start: 960px;
+    }
+    .text-detal67 {
+        inset-inline-start: -740px;
+        inset-block-start: 760px;
+    }
+    .text-detal555, .text-detal666 {
+        inset-inline-start: -741px;
+        inset-block-start: 760px;
+    }
+    .text-detal777 {
+        inset-inline-start: -1056px;
+        inset-block-start: 960px;
+    }
+    .logoTrio {
+        inset-inline-start: -10px;
+        inset-block-start: 610px;
+    }
+    .logoDuo {
+        inset-inline-start: -868px;
+        inset-block-start: 610px;
+    }
+    .piss {
+        inset-inline-start: -8px;
+        inset-block-start: 608px;
+    }
+    .piss11 {
+        inset-inline-start: -870px;
+        inset-block-start: 608px;
+    }
+    .znak1 {
+        inset-inline-start: -40px;
+        inset-block-start: 4370px;
+        width: 60px;
+        height: auto;
+    }
+                .znak2 {
+                    inset-inline-start: -130px;
+                    inset-block-start: 4370px;
+                    width: 60px;
+                    height: auto;
+                }
+                .znak3 {
+                    inset-inline-start: -740px;
+                    inset-block-start: 4530px;
+                    width: 60px;
+                    height: auto;
+                }
+                .znak4 {
+                    inset-inline-start: -830px;
+                    inset-block-start: 4530px;
+                    width: 60px;
+                    height: auto;
+                }
+
+    .text-znak11 {
+        inset-inline-start: -36px;
+        inset-block-start: 4322px;
+        width: 220px;
+        height: auto;
+        font-size: 20px;
+    }
+                .text-znak22 {
+                    inset-inline-start: -126px;
+                    inset-block-start: 4322px;
+                    width: 200px;
+                    height: auto;
+                    font-size: 20px;
+                }
+                .text-znak33 {
+                    inset-inline-start: -735px;
+                    inset-block-start: 4490px;
+                    width: 200px;
+                    height: auto;
+                    font-size: 20px;
+                }
+                .text-znak44 {
+                    inset-inline-start: -812px;
+                    inset-block-start: 4490px;
+                    width: 200px;
+                    height: auto;
+                    font-size: 20px;
+                }
+    .text_znak11 {
+        inset-inline-start: -20px;
+        inset-block-start: 4290px;
+        width: 200px;
+        height: auto;
+        font-size: 12px;
+    }
+                    .text_znak22 {
+                        inset-inline-start: -100px;
+                        inset-block-start: 4290px;
+                        width: 200px;
+                        height: auto;
+                        font-size: 12px;
+                    }
+                    .text_znak33 {
+                        inset-inline-start: -720px;
+                        inset-block-start: 4460px;
+                        width: 210px;
+                        height: auto;
+                        font-size: 12px;
+                    }.text_znak44 {
+                        inset-inline-start: -815px;
+                        inset-block-start: 4460px;
+                        width: 210px;
+                        height: auto;
+                        font-size: 12px;
+                    }
+            .low {
+                width: 100px;
+                height: auto;
+                inset-inline-start: -120px;
+                inset-block-start: 4705px;
+            }
+
+    .text-low, .text-low2, .text-low3, .text-low4, .text-low5, .text-low6, .text-low7, .text-low8, .text-low9, .text-low10 {
+        inset-inline-start: -410px;
+        inset-block-start: 4710px;
+        width: 200px;
+    }
+    .text-low33, .text-low44, .text-low55 {
+        inset-inline-start: -630px;
+        inset-block-start: 4730px;
+        width: 200px;
+    }
+    .text-low11 {
+        inset-inline-start: -630px;
+        inset-block-start: 4710px;
+        width: 200px;
+    }
+    .text-low22 {
+        inset-inline-start: -630px;
+        inset-block-start: 4710px;
+        width: 240px;
+    }
+    .img11, .img22, .img33, .img44, .img55, .img66, .img77, .img88 {
+        inset-inline-start: -960px;
+        inset-block-start: 5092px;
+    }
+    .dress .container {
+        display: flex;
+        height: 3830px;
+    }
+    .line_shadow {
+        inset-block-start: 990px;
+    }
+            .logo, .text11, .text22, .text33, .text44, .text55, .text66 {
+                inset-inline-start: -110px; 
+            }
+        .new {
+            height: 360px;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------MEDIA_320PX--------------------------------------------------------------------------*/                   
+                    
+@media (max-width: 320px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header-men .container {
+        height: 155px;
+    }
+    .delivery .container {
+        height: 100px;
+    }
+
+                    .img1 {
+                        width: 120px;
+                        height: auto; 
+                        inset-block-start:22px;
+                    }
+                            .text1 {
+                                inset-block-start:50px;
+                                inset-inline-start:-280px;
+                                width: 200px;
+                            }
+                            .text2 {
+                                inset-block-start:70px;
+                                inset-inline-start:-485px;
+                                width: 200px;
+                            }
+                            .text3 {
+                                inset-block-start:90px;
+                                inset-inline-start:-662px;
+                            }
+                            .text4 {
+                                inset-block-start:110px;
+                                inset-inline-start:-785px;
+                            }
+                            .text5 {
+                                inset-block-start:132px;
+                                inset-inline-start:-887px;
+                            }
+                            .img2 {
+                                inset-block-start:40px;
+                                inset-inline-start:-1160px;
+                                width: 16px;
+                            }
+                            .img3 {
+                                inset-block-start:40px;
+                                inset-inline-start:-1160px;
+                                width: 16px;
+                            }
+                            .img_container_skate {
+                                width: 320px;
+                            }
+                    .banner-text {
+                        inset-block-start:125px;
+                        inset-inline-start: -425px;
+                        width: 220px;
+                        font-size: 18px;
+                    }
+                    .banner-Holy {
+                        inset-block-start:100px;
+                        inset-inline-start: -420px;
+                        width: 230px;
+                        font-size: 12px;
+                    }
+                    .banner-11 {
+                        inset-block-start:130px;
+                        inset-inline-start: -440px;
+                        width: 150px;
+                    }
+                    .banner-bukva-2 {
+                        inset-block-start:170px;
+                        inset-inline-start: -715px;
+                        width: 200px;
+                        font-size: 12px;
+                    }
+                    .banner-12 {
+                        inset-block-start:170px;
+                        inset-inline-start: -653px;
+                        width: 150px;
+                    }
+                    .banner-bukva-1 {
+                        inset-block-start:130px;
+                        inset-inline-start: -513px;
+                        width: 200px;
+                        font-size: 12px;
+                    }
+                            .logotype1 {
+                                inset-block-start:370px;
+                                inset-inline-start:-180px;
+                                width: 100px;
+                            }
+                            .logotype2 {
+                                inset-block-start:370px;
+                                inset-inline-start:-295px;
+                                width: 110px;
+                            }
+                            .logotype3 {
+                                inset-block-start:410px;
+                                inset-inline-start:-780px;
+                                width: 100px;
+                            }
+                            .logotype4 {
+                                inset-block-start:410px;
+                                inset-inline-start:-920px;
+                                width: 110px;
+                            }
+                    .text_nachalo1 {
+                        inset-block-start:420px;
+                        inset-inline-start:-362px;
+                        font-size: 18px;
+                        width: 250px;
+                    }
+                    .text_nachalo2 {
+                        inset-block-start:450px;
+                        inset-inline-start:-355px;
+                        width: 260px;
+                        font-size: 13px;
+                    }
+                .img_mig2 {
+                    inset-block-start:480px;
+                    inset-inline-start:-120px;
+                    width: 280px;
+                }
+                .img_mig1 {
+                    inset-block-start:770px;
+                    inset-inline-start:-720px;
+                    width: 280px;
+                }
+                    .logo_powerh_textT {
+                        width: 100%;
+                        inset-inline-start:-300px;
+                        inset-block-start:330px;
+                        font-size: 20px;
+                    }
+                    .logo_powerh_textTT {
+                        inset-inline-start:-290px;
+                        inset-block-start:320px;
+                        font-size: 18px;
+                    }
+                    .logo_powerh_textN {
+                        width: 100%;
+                        inset-inline-start:-910px;
+                        inset-block-start:610px;
+                        font-size: 20px;
+                    }
+                    .logo_powerh_textNN {
+                        inset-inline-start:-890px;
+                        inset-block-start:600px;
+                        font-size: 18px;
+                    }
+                            .logo_powerh_img11 {
+                                width: 8%;
+                                inset-inline-start:-255px;
+                                inset-block-start:365px;
+                                display: flex;
+                            }
+                            .logo_powerh_img22 {
+                                width: 8%;
+                                inset-inline-start:-855px;
+                                inset-block-start:645px;
+                                display: flex;
+                            }
+                .line_nachalo1 {
+                    inset-block-start:500px;
+                    inset-inline-start:-570px;
+                }
+            .img_widthLine11 {
+                inset-block-start:480px;
+                inset-inline-start:0px;
+            }
+                            .text_width11 {
+                                inset-block-start:440px;
+                                inset-inline-start:-565px; 
+                                font-size: 12px;
+                            }
+                            .text_width22 {
+                                inset-block-start:420px;
+                                inset-inline-start:-572px;
+                                font-size: 24px;
+                            }
+                            .text_width33 {
+                                inset-block-start:395px;
+                                inset-inline-start:-460px;
+                                font-size: 11px;
+                                width: 270px;
+                            }
+                            .text_logo_znak_228 {
+                                inset-block-start:400px;
+                                inset-inline-start:-567px;
+                            }
+                            .logo_znak_228 {
+                                inset-block-start:400px;
+                                inset-inline-start:-542px;
+                                width: 150px;
+                            }
+
+
+    .text-financing {
+        inset-block-start:10px;
+        inset-inline-start:-540px;
+        font-size: 10px;
+    }
+    .img_end_img_1 {
+        inset-inline-start: 2px;
+        inset-block-start: 80px;
+        width: 300px;
+        height: auto;
+    }
+    .img_end_img_2 {
+        inset-inline-start: -478px;
+        inset-block-start: 380px;
+        width: 300px;
+        height: auto;
+    }
+    .img_end_img_3 {
+        inset-inline-start: -958px;
+        inset-block-start: 680px;
+        width: 300px;
+        height: auto;
+    }
+    .text_end_img_11 {
+        inset-inline-start:-90px;
+        inset-block-start: 10px;
+        font-size: 18px;
+    }
+    .text_end_img_22 {
+        inset-inline-start:-570px;
+        inset-block-start: 300px;
+        font-size: 18px;
+    }
+    .text_end_img_33 {
+        inset-inline-start:-1050px;
+        inset-block-start: 600px;
+        font-size: 18px;
+    }
+    .text_end_img_12 {
+        inset-inline-start:-90px;
+        inset-block-start: 0px;
+        font-size: 14px;
+    }
+    .text_end_img_222 {
+        inset-inline-start:-565px;
+        inset-block-start: 290px;
+        font-size: 14px;
+    }
+    .text_end_img_333 {
+        inset-inline-start:-1050px;
+        inset-block-start: 590px;
+        font-size: 14px;
+    }
+    .text-3_line_1, .text-3_line_2 {
+        inset-inline-start:-940px;
+        inset-block-start: -178px;
+        width: 260px;
+    }
+    .text_logo-3_line_12, .logo-3_line_12 {
+        inset-inline-start:-850px;
+        inset-block-start: -160px;
+    }
+    .img-3_line_ling_1 {
+        inset-inline-start:-525px;
+        inset-block-start: 180px;
+        width: 295px;
+        height: auto;
+    }
+    .img-3_line_ling_2 {
+        inset-inline-start:-125px;
+        inset-block-start: -120px;
+        width: 295px;
+        height: auto;
+    }
+    .video_1 {
+        display: none;
+    }
+    .video_2 {
+        display: none;
+    }
+            .img_video_29 {
+                inset-inline-start:120px;
+                inset-block-start: 3100px;
+                width: 50px;
+                height: 50px;
+                display: block;
+            }
+            .img_video_228 {
+                inset-inline-start:65px;
+                inset-block-start: 3085px;
+                width: 50px;
+                height: 50px;
+            }
+            .text_video_12 {
+                inset-inline-start:25px;
+                inset-block-start: 3060px;
+                width: 250px;
+                color: #000;
+                font-size: 22px;
+                font-weight: 700;
+            }
+    .dress-text, .line1 {
+        inset-inline-start:-570px;
+        inset-block-start: 250px;
+        font-size: 22px;
+    }
+                                                            
+    .billbike {
+        inset-inline-start: 70px;
+        inset-block-start: 200px;
+        width: 128px;
+        height: auto;
+    }
+    .zadnee {
+        inset-inline-start: -110px;
+        inset-block-start: 350px;
+        width: 128px;
+        height: auto;
+    }
+    .vtul {
+        inset-inline-start: -340px;
+        inset-block-start: 520px;
+        width: 128px;
+        height: auto;
+    }
+    .bikeDetal {
+        inset-inline-start: -524px;
+        inset-block-start: 690px;
+        width: 128px;
+        height: auto;
+    }
+    .zap {
+        inset-inline-start: -730px;
+        inset-block-start: 860px;
+        width: 128px;
+        height: auto;
+    }
+    .Rectan {
+        inset-inline-start: -940px;
+        inset-block-start: 1030px;
+        width: 128px;
+        height: auto;
+    }
+    .odmin {
+        inset-inline-start: -1145px;
+        inset-block-start: 1210px;
+        width: 128px;
+        height: auto; 
+    }
+    .text-detal11 {
+        inset-inline-start:40px;
+        inset-block-start: 110px;
+    }
+    .text-detal22 {
+        inset-inline-start:-160px;
+        inset-block-start: 280px;
+    }
+    .text-detal33 {
+        inset-inline-start:-365px;
+        inset-block-start: 450px;
+    }
+    .text-detal44 {
+        inset-inline-start:-560px;
+        inset-block-start: 610px;
+    }
+    .text-detail111, .text-detail1111 {
+        inset-inline-start: 40px;
+        inset-block-start: 110px;
+    }
+    .text-detal222, .text-detal2222 {
+        inset-inline-start: -160px;
+        inset-block-start: 280px;
+    }
+    .text-detal333 {
+        inset-inline-start: -366px;
+        inset-block-start: 450px;
+    }
+    .text-detal444 {
+        inset-inline-start: -560px;
+        inset-block-start: 610px;
+    }
+    .text-detal55 {
+        inset-inline-start: -765px;
+        inset-block-start: 790px;
+    }
+    .text-detal66 {
+        inset-inline-start: -970px;
+        inset-block-start: 950px;
+    }
+    .text-detal77 {
+        inset-inline-start:-1180px;
+        inset-block-start: 1130px;
+    }
+    .text-detal67 {
+        inset-inline-start: -970px;
+        inset-block-start: 950px;
+    }
+    .text-detal555 {
+        inset-inline-start: -765px;
+        inset-block-start: 790px;
+    }
+    .text-detal666 {
+        inset-inline-start: -970px;
+        inset-block-start: 950px;
+    }
+    .text-detal777 {
+        inset-inline-start: -1180px;
+        inset-block-start: 1130px;
+    }
+    .logoTrio {
+        inset-inline-start: -10px;
+        inset-block-start: 610px;
+    }
+    .logoDuo {
+        inset-inline-start: -1125px;
+        inset-block-start: 610px;
+    }
+    .piss {
+        inset-inline-start: -8px;
+        inset-block-start: 608px;
+    }
+    .piss11 {
+        inset-inline-start: -1127px;
+        inset-block-start: 608px;
+    }
+    .znak1 {
+        inset-inline-start: -127px;
+        inset-block-start: 4480px;
+        width: 60px;
+        height: auto;
+    }
+                .znak2 {
+                    inset-inline-start: -334px;
+                    inset-block-start: 4480px;
+                    width: 60px;
+                    height: auto;
+                }
+                .znak3 {
+                    inset-inline-start: -830px;
+                    inset-block-start: 4720px;
+                    width: 60px;
+                    height: auto;
+                }
+                .znak4 {
+                    inset-inline-start: -1010px;
+                    inset-block-start: 4720px;
+                    width: 60px;
+                    height: auto;
+                }
+
+    .text-znak11 {
+        inset-inline-start: -118px;
+        inset-block-start: 4430px;
+        width: 220px;
+        height: auto;
+        font-size: 18px;
+    }
+                .text-znak22 {
+                    inset-inline-start: -326px;
+                    inset-block-start: 4430px;
+                    width: 200px;
+                    height: auto;
+                    font-size: 18px;
+                }
+                .text-znak33 {
+                    inset-inline-start: -818px;
+                    inset-block-start: 4680px;
+                    width: 200px;
+                    height: auto;
+                    font-size: 18px;
+                }
+                .text-znak44 {
+                    inset-inline-start: -986px;
+                    inset-block-start: 4680px;
+                    width: 200px;
+                    height: auto;
+                    font-size: 18px;
+                }
+    .text_znak11 {
+        inset-inline-start: -38px;
+        inset-block-start: 4410px;
+        width: 120px;
+        height: auto;
+        font-size: 12px;
+        text-align: left;
+    }
+                    .text_znak22 {
+                        inset-inline-start: -230px;
+                        inset-block-start: 4410px;
+                        width: 120px;
+                        height: auto;
+                        font-size: 12px;
+                        text-align: left;
+                    }
+                    .text_znak33 {
+                        inset-inline-start: -736px;
+                        inset-block-start: 4660px;
+                        width: 120px;
+                        height: auto;
+                        font-size: 12px;
+                        text-align: left;
+                    }.text_znak44 {
+                        inset-inline-start: -943px;
+                        inset-block-start: 4660px;
+                        width: 120px;
+                        height: auto;
+                        font-size: 12px;
+                        text-align: left;
+                    }
+            .low {
+                width: 80px;
+                height: auto;
+                inset-inline-start: -115px;
+                inset-block-start: 4940px;
+            }
+
+    .text-low, .text-low2, .text-low3, .text-low4, .text-low5, .text-low6, .text-low7, .text-low8, .text-low9, .text-low10 {
+        inset-inline-start: -510px;
+        inset-block-start: 5030px;
+        width: 200px;
+    }
+    .text-low33, .text-low44, .text-low55 {
+        inset-inline-start: -910px;
+        inset-block-start: 5320px;
+        width: 200px;
+    }
+    .text-low11 {
+        inset-inline-start: -910px;
+        inset-block-start: 5300px;
+        width: 200px;
+    }
+    .text-low22 {
+        inset-inline-start: -910px;
+        inset-block-start: 5300px;
+        width: 240px;
+    }
+    .img11, .img22, .img33, .img44, .img55, .img66, .img77, .img88 {
+        inset-inline-start: -967px;
+        inset-block-start: 5685px;
+        width: 30px;
+        height: auto;
+    }
+    .dress .container {
+        display: flex;
+        height: 4040px;
+    }
+    .line_shadow {
+        inset-block-start: 1130px;
+    }
+            .logo, .text11, .text22, .text33 {
+                inset-inline-start: -120px; 
+                font-size: 12px;
+                width: 200px;
+            }
+            .text44, .text55, .text66 { 
+                inset-inline-start: -360px;
+                inset-block-start: 5660px;
+                font-size: 12px;
+                width: 200px;
+            }
+        .new {
+            height: 480px;
+        }
+        .subscribe {
+            height: 650px;
+        }
+        .sale {
+            height:100px;
+        }
+}
+
+
+
+
+
+
+
+
+                     
+                        
